@@ -1,0 +1,19 @@
+.bg-primary {
+   font-size: 50px;
+}
+
+.form {
+   float: left;
+  }
+  .container{
+    border: 10px;
+    border-color: black;
+  }
+  .col-sm-4{
+    border: 3px;
+    border-color: black;
+  }
+  .border {
+    padding: 50px;
+   
+  }
