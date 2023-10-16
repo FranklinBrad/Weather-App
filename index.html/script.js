@@ -10,6 +10,15 @@ THEN I am again presented with current and future conditions for that city
 
 */
 
-const apiKey = "af2027419e84ab660054110fc4039fad"
+var apiKey = "4b00c954dfbfed2f55f7d1b1f64163c9";
 
+
+function fetchWeather() {
+    fetch(
+      "https://api.openweathermap.org/geo/1.0/direct?q=Austin&limit=5&appid=${apiKey}"
+    )
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+  }
+  fetchWeather();
     
