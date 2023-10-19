@@ -27,33 +27,15 @@
             class="form-control form-input"
             placeholder="Search city..."
           />
-          <button type="button" class="btn btn-primary">Search</button>
-          <div class="dropdown">
-            <button
-              class="btn btn-secondary dropdown-toggle"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Rectent citys
-            </button>
-            <ul class="dropdown-menu">
-              <li>
-                <button class="dropdown-item" type="button">Action</button>
-              </li>
-              <li>
-                <button class="dropdown-item" type="button">
-                  Another action
-                </button>
-              </li>
-              <li>
-                <button class="dropdown-item" type="button">
-                  Something else here
-                </button>
-              </li>
-            </ul>
+          <button id= "search-btn"type="button" class="btn btn-primary">Search</button>
+          <div>
+            <h2>recent cities</h2>
+            <div id="history">
+  
+            </div>
           </div>
         </div>
+        
        <section id="mainWeather" >
         <div id= "currWeather" class = "border border-black ">
           <h1>Current forecast</h1>
@@ -61,8 +43,8 @@
         </div>
       </section>
     </div>
-      <section id="nextFive"> 
-        <div id = "fiveDays" class="border border-black"></div>
+      <section class="d-flex p-2" id="next-five"> 
+        
       </div> 
       
       
@@ -70,7 +52,11 @@
 
       </div>
     </div>
-
+    <script
+    src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"
+  ></script>
     <script src="script.js"></script>
     
   </body>

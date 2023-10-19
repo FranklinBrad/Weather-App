@@ -20,3 +20,15 @@
   #mainWeather {
     padding-right: 200px;
   }
+  #next-five{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .card{
+    margin: 25px;
+    min-width: 16%;
+  }
+  #history{
+    display: flex;
+    flex-direction: column;
+  }
