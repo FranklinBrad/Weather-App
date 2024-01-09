@@ -38,7 +38,7 @@
   #currWeather {
     text-align: center;
     justify-content: center;
-    width: 40%; /* Adjust the width as needed */
+    width: 40%; 
     margin: 0 auto;
     display: flex;
     position: absolute;
